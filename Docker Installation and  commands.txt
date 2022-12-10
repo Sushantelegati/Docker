@@ -1,0 +1,34 @@
+
+
+To Start Container ( Docker Start sushant)
+
+To go inside Container ( Docker Attach sushant)
+
+To see all Containers (Docker ps -a )
+
+
+To See only running Containers ( Docker ps ) process status 
+
+
+to stop container ( Docker stop sushant)
+
+to remove container ( Docker RM sushant)
+
+to see all images present in your local machine :-  []# docker images
+
+to find out images in docker hub:-   []#docker search jenkins
+
+to download images from docker to local machine:- []# docker pull jenkins
+
+to give name to container:- docker run -it --name sushant unbuntu /bin/bash
+
+to check status:- service doacker status
+
+
+To run Image :-   docker run -it --name  unbuntu /bin/bash
+
+(Docker Commit newcontainer) to create image of this Container
+
+(Docker diff containername)  to see changes in container Exp:- if u create a folder or any thing
+
+

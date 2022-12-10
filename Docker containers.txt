@@ -1,0 +1,29 @@
+Container is like a virtual Machine:- in Docker Engine 
+
+Docker is a tool which creates this Vm
+
+With help of Docker engine we create Containers.
+
+1) Docker is Advance Versions of Virtualisation 
+
+Installion:-
+
+Hardware. os. Docker engine (is like Hypervisor) Container
+
+
+1)Docker is an Open -Source Centralised Platform Designed to Create Deploy and run applications:
+
+2) Docker uses Container on the Host o.s to Run applications it allows applications to use the same linux kernal as a system on
+ the host comuter rather than Creating a Whole virtual O.s
+
+3) We can Install Docker on any o.s but Docker engine runs nativly on linux distributions.
+
+4) Docker wriiten in go language.
+
+5) Docker is a tool that performs os level Virtualization also Known as Containers.
+
+6) Docker was first release in March 2013 it is developed by Soloman Hykes
+
+7)  Docker is a set of patform as a services that uses o.s level virtualization  whereas Vm ware uses Hardware level Virtualisation
+
+

@@ -1,0 +1,43 @@
+Docker with AWS:-
+
+Docker and docker Cpmpose(Learn basics of Docker and Container)
+
+Build Simple web Application and run them using Docker
+
+Ci/CD
+
+Deploy and run Docker web application in aws cloud.
+
+
+
+Why use docker?
+
+..Esay to install and run software without worrying about setup and dependancies.
+1) By Using Docker we can install a software in n number of systems
+
+2)  Run software in isolation without having side effects on other software running on a machine. we can install multiple versions of a software
+ in same systems with out effcting another one.
+
+What is Docker? Image and Container.
+
+Docker Ecosystem. components
+
+Docker Client.  Docker Server.  Docker Machine.  Docker Images.  Docker Hub.  Docker Compose.
+
+..Docker is a platform or Ecosystem around creating and Running Containers.
+
+Containers are Heart of Docker.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

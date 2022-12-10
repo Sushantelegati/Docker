@@ -1,0 +1,43 @@
+Docker File Components and diff Command's
+
+1)  Login into AWS account and start your EC2 instance Access it from Putty
+
+2) Now we have to create Container From Our Own Image
+
+There fore Create one Container First.
+
+3) Docker run -it --name sushant ubuntu /bin/bash
+
+4) cd tmp/
+
+Now create One File inside this tmp directory
+
+Touch Myfile.
+
+
+Now if you want to see the difference between the base image and changes on it then.
+
+Docker diff sushant updateimage.
+
+c  /root  c= Change
+A  /root/.bash-history  a= addition
+
+C  /tmp
+
+A  /tmp/myfile
+
+Now, Create image of this Container
+
+a) Docker Commit newcontainer updateimage
+
+Docker Images
+
+Now create Container From this image
+
+Docker run -it --name rajcontainer updateimage /bin/bash
+
+root@cid# ls
+
+#  cd tmp/
+tmp # ls
+o/p myfile {you will get all files back}

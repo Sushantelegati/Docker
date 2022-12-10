@@ -1,0 +1,29 @@
+DockerFile:-
+
+Dockerfile is basically a text file it conatins some set of instructions.
+
+Automation of Docker image creation 
+           Docker COMPONENTS.
+
+FROM :- FOR base image this command must be on top of the dockerfile.
+
+
+RUN :- to Execute Commands it will Create a layer in image.
+
+
+MAINTAINER :-  Author/Owner/Description
+
+COPY :- Copy File from local system (Docker VM) we need tp provide source destination (we can't download file from internet and any remote repo)
+
+
+ADD :- Similer to copy but, it provides a feature to download files from internet, also we extract file at docker image side.
+
+EXPOSE:-  To expose ports such as port 8080 for tomcat port 80 for ngnix etc.
+
+WorkDIR:-  To set working directory for a container.
+
+CMD:-  Execute Command but during Container creation.
+
+EntryPOINT :- Similer to CMD but has higher priority over executed by ENTRYPOINT only.
+
+ENV :- Environment variables
